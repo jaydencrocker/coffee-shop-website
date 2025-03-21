@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joe’s Coffee Shop</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; }
-        header { background: #654321; color: white; padding: 20px; }
-        section { margin: 20px; padding: 20px; background: #f4f4f4; border-radius: 10px; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Joe's Coffee Shop</h1>
         <p>Best Coffee in Town!</p>
     </header>
-    <section>
+
+    <section class="menu">
         <h2>Menu</h2>
-        <p>Espresso - $2.00</p>
-        <p>Cappuccino - $3.50</p>
-        <p>Latte - $4.00</p>
+        <ul>
+            <li>Espresso - $2.00</li>
+            <li>Cappuccino - $3.50</li>
+            <li>Latte - $4.00</li>
+        </ul>
     </section>
-    <section>
+
+    <section class="gallery">
+        <h2>Our Coffee</h2>
+        <img src="images/latte.jpg" alt="Latte" />
+        <img src="images/espresso.jpg" alt="Espresso" />
+    </section>
+
+    <section class="contact">
         <h2>Contact</h2>
         <p>123 Coffee St, Coffee Town</p>
         <p>Email: contact@joescoffeeshop.com</p>
